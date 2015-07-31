@@ -1,0 +1,19 @@
+
+html .mcecontentbody {
+	max-width:none;
+}
+
+#tinymce .row-fluid {
+	background-color:#f6f6f6;
+}
+
+#tinymce .row-fluid .rhcol {
+	background-color:#eee;
+	border: dashed #ddd;
+}
+
+#tinymce .row-fluid {
+
+}
+
+

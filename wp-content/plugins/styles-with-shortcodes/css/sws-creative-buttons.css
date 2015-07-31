@@ -1,0 +1,150 @@
+/* General Demo Style */
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+/*
+ * SWS Creative Buttons from Codrops
+ */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* General button style (reset) */
+.sws-btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	border-radius:0;
+}
+
+.sws-btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.sws-btn:before,
+.sws-icon-heart:after,
+.sws-icon-star:after,
+.sws-icon-plus:after,
+.sws-icon-file:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sws-icon-envelope:before {
+	content: "\e000";
+}
+
+.sws-icon-cart:before {
+	content: "\e007";
+}
+
+.sws-icon-cart-2:before {
+	content: "\e008";
+}
+
+.sws-icon-heart:before {
+	content: "\e009";
+}
+
+/* Filled heart */
+.sws-icon-heart:after,
+.sws-icon-heart-2:before {
+	content: "\e00a";
+}
+
+.sws-icon-star:before {
+	content: "\e00b";
+}
+
+/* Filled star */
+.sws-icon-star:after,
+.sws-icon-star-2:before {
+	content: "\e00c";
+}
+
+.sws-icon-arrow-right:before {
+	content: "\e00d";
+}
+
+.sws-icon-arrow-left:before {
+	content: "\e003";
+}
+
+.sws-icon-truck:before {
+	content: "\e00e";
+}
+
+.sws-icon-remove:before {
+	content: "\e00f";
+}
+
+.sws-icon-cog:before {
+	content: "\e010";
+}
+
+.sws-icon-plus:before,
+.sws-icon-plus:after {
+	content: "\e011";
+}
+
+.sws-icon-minus:before {
+	content: "\e012";
+}
+
+.sws-bh-icon-smiley:before {
+	content: "\e001";
+}
+
+.sws-bh-icon-sad:before {
+	content: "\e002";
+}
+
+.sws-icon-file:before {
+	content: "\e004";
+}
+
+.sws-icon-remove-2:before {
+	content: "\e005";
+}
+
+
